@@ -7,18 +7,13 @@ app = Flask(__name__)
 PORTFOLIO_DATA = {
     "name": "Dhruv Thejas",
     "title": "AI Engineer | ML Specialist | Full-Stack Developer",
-    "bio": "Ivy League-recognized AI engineer with deep expertise in machine learning, computer vision, and autonomous systems. Passionate about building intelligent solutions that solve real-world problems, I combine rigorous research methodology with practical engineering to create impactful technology. Specializing in reinforcement learning, deep learning, and AI-driven system design.",
+    "bio": "AI engineer with a focus on machine learning, computer vision, NLP, and autonomous systems. I create AI systems that think, see, and act, built on a foundation of rigorous experimentation and engineering craftsmanship. My work spans reinforcement learning, multimodal deep learning, and intelligent system design, driven by the belief that real AI innovation happens where theory meets messy real-world constraints.",
+    "about_bio": "I specialize in designing learning systems that generalize beyond training distributions, leverage structure in data, and make robust decisions in uncertain environments. From building perception driven autonomous agents to developing language aware control architectures, I push toward AI that is adaptable, interpretable, and ready for real-world deployment.",
     "email": "dhruvthejas.kj@gmail.com",
     "phone": "+91 8309303147",
     "location": "India",
     "github": "https://github.com/DhruvThejas",
     "linkedin": "https://linkedin.com/in/dhruv-thejas",
-
-    "stats": [
-        {"number": "5+", "label": "Projects"},
-        {"number": "8.76", "label": "CGPA"},
-        {"number": "3+", "label": "Internships"}
-    ],
 
     "experience": [
         {
@@ -107,43 +102,37 @@ PORTFOLIO_DATA = {
             "title": "CISCO Forecasting League Competition FY25 Q2",
             "tech": "Pandas, Power BI, Excel, Time Series Analysis, LSTM",
             "description": "Predicted FY25 Q2 unit sales for top 20 Cisco masked product categories, achieving 90% accuracy and Rank 4. Analyzed 12 quarters of sales data using Holt's Winter and Exponential Smoothing.",
-            "github": "#",
+            "github": "https://github.com",
             "icon": "📊"
         },
         {
             "title": "Global Avian Invasions Atlas Management System",
             "tech": "MySQL, OpenAI, Flask, Python, NL-to-SQL",
             "description": "Built AI-driven Natural Language to SQL conversion system for analyzing bird ranges, habitats, and invasion trends. Trained model on sophisticated queries to generate contextually relevant SQL outputs.",
-            "github": "#",
+            "github": "https://github.com",
             "icon": "🦅"
         },
         {
             "title": "Headphones Recommendation System",
             "tech": "Python, BeautifulSoup, Web Scraping, Machine Learning",
             "description": "Designed real-time recommendation system providing tailored headphone suggestions. Leveraged web scraping to extract product information with personalized filtering based on user preferences.",
-            "github": "#",
+            "github": "https://github.com",
             "icon": "🎧"
         },
         {
             "title": "Speech-to-Text Analysis System",
             "tech": "Flask, Python, Speech Recognition, Grammar Check, NLP",
             "description": "Flask web application converting audio to text with grammar/spell checking and next-word prediction. Responsive Bootstrap frontend for seamless transcription and text correction.",
-            "github": "#",
+            "github": "https://github.com",
             "icon": "🎤"
         },
         {
             "title": "Soil Erosion Prediction Using ML",
             "tech": "Random Forest, SVM, Neural Networks, Python, Data Analysis",
             "description": "Applied machine learning models to predict soil erosion rates using ESSD dataset. Identified key environmental features contributing to erosion for sustainable land management.",
-            "github": "#",
-            "icon": "🌍"
-        },
-        {
-            "title": "Medical Imaging Analysis Pipeline",
-            "tech": "TensorFlow, PyTorch, CNNs, OpenCV, Python",
-            "description": "Developed deep learning pipeline for medical image classification and segmentation. Implemented preprocessing, augmentation, and advanced CNN architectures for healthcare applications.",
-            "github": "#",
-            "icon": "🏥"
+            "github": "https://github.com",
+            "icon": "🌍",
+            "centered": True
         }
     ],
 
@@ -153,7 +142,6 @@ PORTFOLIO_DATA = {
             "venue": "NMITCON 2025 IEEE Conference",
             "status": "Published",
             "description": "Investigated performance of different kernel techniques (Gaussian, Laplacian, Bilateral) for image denoising. Compared linear and non-linear approaches using PSNR, MSNR evaluation metrics.",
-            "github": "#",
             "icon": "🔬"
         },
         {
@@ -161,7 +149,6 @@ PORTFOLIO_DATA = {
             "venue": "ICSCI 2025 Springer CCIS Series",
             "status": "Published",
             "description": "Developed robust face anti-spoofing model leveraging CNNs, reinforcement learning (SAC, PPO, TD3), and GAN-based augmentation. Discriminator accuracy over 97% on MSU-MFSD dataset.",
-            "github": "#",
             "icon": "🔐"
         },
         {
@@ -169,16 +156,22 @@ PORTFOLIO_DATA = {
             "venue": "Journal Submission",
             "status": "Submitted",
             "description": "Developed OCR-NLP pipeline using PaddleOCR and semantic similarity for food label analysis. Integrated USDA FoodData Central for personalized dietary recommendations achieving 85% recall.",
-            "github": "#",
             "icon": "🍎"
         },
         {
             "title": "Histopathological Classification of Ovarian Cancer using SwinConvNeXt",
             "venue": "IEEE Conference & Journal",
-            "status": "Ongoing",
+            "status": "Submitted",
             "description": "Weighted ensemble combining Swin Transformer and ConvNeXt-Tiny for rare ovarian cancer classification. Achieved 96.46% accuracy with 96.12% macro F1-score on 4-class problem.",
-            "github": "#",
             "icon": "🔬"
+        },
+        {
+            "title": "Currently Researching and Writing Papers",
+            "venue": "Privacy & AI",
+            "status": "Ongoing",
+            "description": "Exploring the intersection of privacy-preserving machine learning and AI safety. Developing methods for federated learning, differential privacy, and interpretable AI systems that maintain user confidentiality while delivering robust performance.",
+            "icon": "🛡️",
+            "centered": True
         }
     ],
 
