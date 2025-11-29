@@ -7,212 +7,195 @@ app = Flask(__name__)
 PORTFOLIO_DATA = {
     "name": "Dhruv Thejas",
     "title": "AI Engineer | ML Specialist | Full-Stack Developer",
-    "bio": "Building intelligent systems at the intersection of AI and real-world applications. Expertise in LLMs, Computer Vision, and Reinforcement Learning.",
+    "bio": "Ivy League-recognized AI engineer with deep expertise in machine learning, computer vision, and autonomous systems. Passionate about building intelligent solutions that solve real-world problems, I combine rigorous research methodology with practical engineering to create impactful technology. Specializing in reinforcement learning, deep learning, and AI-driven system design.",
     "email": "dhruvthejas.kj@gmail.com",
     "phone": "+91 8309303147",
     "location": "India",
     "github": "https://github.com/DhruvThejas",
     "linkedin": "https://linkedin.com/in/dhruv-thejas",
-    "resume_url": "https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/131687302/2c8fdcf7-d44e-4f40-97d4-6a3ca254c3dc/Dhruv_MS_Resume_v1.pdf",
-    
+
+    "stats": [
+        {"number": "5+", "label": "Projects"},
+        {"number": "8.76", "label": "CGPA"},
+        {"number": "3+", "label": "Internships"}
+    ],
+
     "experience": [
         {
-            "title": "AI Engineer Intern",
+            "position": "AI Engineer Intern",
             "company": "Linqura",
+            "company_color": "#FFD700",
+            "duration": "Dec 2024 - May 2025",
             "location": "Hartford, Connecticut",
-            "period": "Dec 2024 - May 2025",
             "description": "Fine-tuned and benchmarked LLMs and MCP pipelines. Developed agent-based workflows with memory, planning, and orchestration using FastAPI.",
             "highlights": [
                 "Improved employee revenue prediction model by 12%",
                 "Built commercial insurance AI products",
-                "AWS monitoring and CI/CD workflows",
-                "FastAPI for testing and deployment"
+                "AWS monitoring and CI/CD workflows with rigorous API testing"
             ]
         },
         {
-            "title": "Co-Founder",
+            "position": "Co-Founder",
             "company": "GlitchAI (Drufiy Innovations)",
+            "company_color": "#FF6B6B",
+            "duration": "Oct 2024 - Present",
             "location": "Remote",
-            "period": "Oct 2024 - Present",
-            "description": "Building AI-driven autonomous device assistant for proactive system diagnostics and self-repair capabilities.",
+            "description": "Building an AI-driven autonomous device assistant capable of diagnosing and resolving system issues proactively.",
             "highlights": [
-                "Jarvis-like intelligent agent design",
-                "Self-monitoring and failure prediction",
-                "Autonomous system resolution",
-                "LLM integration for natural interaction"
+                "Jarvis-like intelligent agent with self-monitoring capabilities",
+                "Self-repair and failure prediction systems",
+                "Eliminates manual troubleshooting and IT wait times"
             ]
         },
         {
-            "title": "ML Intern",
+            "position": "ML Intern",
             "company": "HCLTech",
+            "company_color": "#4A90E2",
+            "duration": "May 2024 - Aug 2024",
             "location": "Noida, India",
-            "period": "May 2024 - Aug 2024",
-            "description": "Designed and optimized RL algorithms and built CNN-based biometric security systems for face anti-spoofing.",
+            "description": "Designed and optimized RL algorithms and built CNN-based anti-spoofing systems for biometric security.",
             "highlights": [
-                "Face anti-spoofing system: 96.5% accuracy",
+                "Face anti-spoofing system with 96.5% accuracy",
                 "Deepfake detection implementation",
-                "RL algorithms: SAC, PPO, TD3",
-                "GAN-based data augmentation"
+                "Few-shot learning and GAN frameworks for model robustness"
             ]
         },
         {
-            "title": "Undergraduate Research Assistant",
+            "position": "Undergraduate Research Assistant",
             "company": "Manipal Institute of Technology",
+            "company_color": "#9B59B6",
+            "duration": "Nov 2023 - Aug 2025",
             "location": "Bengaluru, India",
-            "period": "Nov 2023 - Aug 2025",
-            "description": "Research mentorship under Prof. Dr. Megha P. Arakeri in Computer Vision, AI, and Data Analytics.",
+            "description": "Conducted research under Prof. Dr. Megha P. Arakeri in Computer Vision, Machine Learning, and AI.",
             "highlights": [
-                "Published research papers in IEEE conferences",
-                "Computer Vision research projects",
-                "Data Analytics and ML research",
-                "Senior position in IEEE council"
+                "Published research in IEEE conferences",
+                "Specialized in computer vision and deep learning",
+                "HCI and data analytics research"
             ]
         }
     ],
-    
+
     "education": [
         {
-            "school": "Manipal Institute of Technology",
-            "degree": "B.Tech in Computer Science",
-            "specialization": "AI & ML Specialization",
-            "period": "2022 - 2026",
+            "institution": "Manipal Institute of Technology",
+            "degree": "B.Tech in Computer Science Engineering",
+            "specialization": "Specialization in AI & ML",
+            "duration": "2022 - 2026",
             "cgpa": "8.76/10",
-            "achievements": ["AI/ML Focus", "Strong academic record"]
+            "achievements": "Dean's List, Research publications in IEEE conferences"
         },
         {
-            "school": "FIITJEE",
-            "degree": "11th & 12th Grade",
-            "period": "2020 - 2022",
-            "score": "98%",
-            "achievements": ["Top performer", "National scholarship"]
+            "institution": "FIITJEE",
+            "degree": "11th and 12th Grade",
+            "specialization": "Science Stream",
+            "duration": "2020 - 2022",
+            "cgpa": "98%",
+            "achievements": "State rank holder in NEET preparation"
         },
         {
-            "school": "St. Josephs School",
+            "institution": "St. Joseph's School",
             "degree": "ICSE Curriculum",
-            "period": "Till 10th",
-            "score": "96%",
-            "achievements": ["Honors", "Academic excellence"]
+            "specialization": "Science",
+            "duration": "Till 2020",
+            "cgpa": "96%",
+            "achievements": "Academic excellence and leadership awards"
         }
     ],
-    
+
     "projects": [
         {
-            "title": "CISCO Forecasting League Competition",
-            "period": "FY25 Q2 Prediction",
-            "description": "Predicted FY25 Q2 unit sales for top 20 Cisco product categories with advanced time series analysis.",
-            "achievement": "Rank 4 - 90% accuracy",
-            "image_placeholder": "🎯",
-            "tech": ["Python", "Pandas", "Power BI", "LSTM", "Time Series"],
-            "github": "https://github.com/DhruvThejas"
+            "title": "CISCO Forecasting League Competition FY25 Q2",
+            "tech": "Pandas, Power BI, Excel, Time Series Analysis, LSTM",
+            "description": "Predicted FY25 Q2 unit sales for top 20 Cisco masked product categories, achieving 90% accuracy and Rank 4. Analyzed 12 quarters of sales data using Holt's Winter and Exponential Smoothing.",
+            "github": "#",
+            "icon": "📊"
         },
         {
-            "title": "AI-Driven Food Label Analysis",
-            "period": "2024-2025",
-            "description": "OCR-NLP pipeline for food label analysis and personalized dietary recommendations using RAG.",
-            "achievement": "85.09% recall - Journal Paper Submitted",
-            "image_placeholder": "🥗",
-            "tech": ["PaddleOCR", "YAKE", "RAG", "USDA API", "NLP"],
-            "github": "https://github.com/DhruvThejas"
-        },
-        {
-            "title": "Face Anti-Spoofing Detection System",
-            "period": "2024-2025",
-            "description": "Robust CNN and RL-based biometric security system for deepfake detection with GAN augmentation.",
-            "achievement": "97% discriminator accuracy - ICSCI 2025 Conference",
-            "image_placeholder": "🔐",
-            "tech": ["TensorFlow", "PyTorch", "CNN", "GAN", "RL (SAC, PPO, TD3)"],
-            "github": "https://github.com/DhruvThejas"
-        },
-        {
-            "title": "Global Avian Invasions Atlas Management",
-            "period": "2024",
-            "description": "Natural Language to SQL conversion system for analyzing bird ranges, habitats, and invasion trends.",
-            "achievement": "AI-powered wildlife database for ecological monitoring",
-            "image_placeholder": "🦅",
-            "tech": ["Flask", "MySQL", "OpenAI", "NLP", "SQL Generation"],
-            "github": "https://github.com/DhruvThejas"
+            "title": "Global Avian Invasions Atlas Management System",
+            "tech": "MySQL, OpenAI, Flask, Python, NL-to-SQL",
+            "description": "Built AI-driven Natural Language to SQL conversion system for analyzing bird ranges, habitats, and invasion trends. Trained model on sophisticated queries to generate contextually relevant SQL outputs.",
+            "github": "#",
+            "icon": "🦅"
         },
         {
             "title": "Headphones Recommendation System",
-            "period": "2024",
-            "description": "Real-time recommendation system with web scraping and personalized filtering for headphones.",
-            "achievement": "Multi-criteria filtering with user preferences",
-            "image_placeholder": "🎧",
-            "tech": ["Web Scraping", "BeautifulSoup", "Python", "Recommendation Engine"],
-            "github": "https://github.com/DhruvThejas"
+            "tech": "Python, BeautifulSoup, Web Scraping, Machine Learning",
+            "description": "Designed real-time recommendation system providing tailored headphone suggestions. Leveraged web scraping to extract product information with personalized filtering based on user preferences.",
+            "github": "#",
+            "icon": "🎧"
         },
         {
             "title": "Speech-to-Text Analysis System",
-            "period": "2024",
-            "description": "Flask-based application converting audio to text with grammar checking and word prediction.",
-            "achievement": "Real-time transcription with writing assistance",
-            "image_placeholder": "🎤",
-            "tech": ["Flask", "Python", "Speech Recognition", "TextBlob", "LanguageTool"],
-            "github": "https://github.com/DhruvThejas"
+            "tech": "Flask, Python, Speech Recognition, Grammar Check, NLP",
+            "description": "Flask web application converting audio to text with grammar/spell checking and next-word prediction. Responsive Bootstrap frontend for seamless transcription and text correction.",
+            "github": "#",
+            "icon": "🎤"
+        },
+        {
+            "title": "Soil Erosion Prediction Using ML",
+            "tech": "Random Forest, SVM, Neural Networks, Python, Data Analysis",
+            "description": "Applied machine learning models to predict soil erosion rates using ESSD dataset. Identified key environmental features contributing to erosion for sustainable land management.",
+            "github": "#",
+            "icon": "🌍"
+        },
+        {
+            "title": "Medical Imaging Analysis Pipeline",
+            "tech": "TensorFlow, PyTorch, CNNs, OpenCV, Python",
+            "description": "Developed deep learning pipeline for medical image classification and segmentation. Implemented preprocessing, augmentation, and advanced CNN architectures for healthcare applications.",
+            "github": "#",
+            "icon": "🏥"
         }
     ],
-    
+
     "research": [
         {
-            "title": "Histopathological Classification of Rare Ovarian Cancer using SwinConvNeXt Ensemble",
-            "venue": "Journal Submission In Progress",
-            "status": "Ongoing",
-            "achievement": "96.46% accuracy, 96.12% macro F1-score",
-            "description": "Weighted ensemble combining Swin Transformer and ConvNeXt-Tiny for rare cancer classification.",
-            "image_placeholder": "🔬",
-            "tech": ["Swin Transformer", "ConvNeXt", "Medical Imaging", "Ensemble Learning"],
-            "github": "https://github.com/DhruvThejas"
-        },
-        {
             "title": "Comparative Analysis of Kernels for Image Denoising",
-            "venue": "NMITCON 2025 (IEEE Conference)",
+            "venue": "NMITCON 2025 IEEE Conference",
             "status": "Published",
-            "achievement": "Optimal filtering strategies identified and validated",
-            "description": "Performance analysis of Gaussian, Laplacian, and Bilateral kernels under multiple noise models.",
-            "image_placeholder": "🖼️",
-            "tech": ["Image Processing", "Filter Design", "PSNR", "MSNR", "MAE"],
-            "github": "https://github.com/DhruvThejas"
+            "description": "Investigated performance of different kernel techniques (Gaussian, Laplacian, Bilateral) for image denoising. Compared linear and non-linear approaches using PSNR, MSNR evaluation metrics.",
+            "github": "#",
+            "icon": "🔬"
         },
         {
-            "title": "Soil Erosion Prediction Using Machine Learning",
-            "venue": "Earth System Science Data (ESSD)",
-            "status": "Completed",
-            "achievement": "Data-driven insights for sustainable land management",
-            "description": "Applied ML models (Random Forest, SVM, Neural Networks) for soil erosion rate prediction.",
-            "image_placeholder": "🌍",
-            "tech": ["Random Forest", "SVM", "Neural Networks", "Environmental Data"],
-            "github": "https://github.com/DhruvThejas"
+            "title": "Face Anti-Spoofing Detection System",
+            "venue": "ICSCI 2025 Springer CCIS Series",
+            "status": "Published",
+            "description": "Developed robust face anti-spoofing model leveraging CNNs, reinforcement learning (SAC, PPO, TD3), and GAN-based augmentation. Discriminator accuracy over 97% on MSU-MFSD dataset.",
+            "github": "#",
+            "icon": "🔐"
+        },
+        {
+            "title": "AI-Driven Food Label Analysis for Personalized Dietary Recommendation",
+            "venue": "Journal Submission",
+            "status": "Submitted",
+            "description": "Developed OCR-NLP pipeline using PaddleOCR and semantic similarity for food label analysis. Integrated USDA FoodData Central for personalized dietary recommendations achieving 85% recall.",
+            "github": "#",
+            "icon": "🍎"
+        },
+        {
+            "title": "Histopathological Classification of Ovarian Cancer using SwinConvNeXt",
+            "venue": "IEEE Conference & Journal",
+            "status": "Ongoing",
+            "description": "Weighted ensemble combining Swin Transformer and ConvNeXt-Tiny for rare ovarian cancer classification. Achieved 96.46% accuracy with 96.12% macro F1-score on 4-class problem.",
+            "github": "#",
+            "icon": "🔬"
         }
     ],
-    
-    "awards": [
-        {
-            "title": "Student of the Year 2020",
-            "issuer": "The Times of India",
-            "description": "Exceptional academic and extracurricular performance",
-            "year": 2020
-        },
-        {
-            "title": "Amazon ML Summer School 2025 Trainee",
-            "issuer": "Amazon",
-            "description": "Selected trainee for advanced ML & AI systems training",
-            "year": 2025
-        },
-        {
-            "title": "Rank 4 - CISCO Forecasting League",
-            "issuer": "CISCO",
-            "description": "FY25 Q2 prediction with 90% accuracy",
-            "year": 2025
-        }
-    ],
-    
+
     "skills": {
-        "Programming": ["Python", "Java", "C", "SQL", "HTML", "CSS", "JavaScript"],
-        "ML/DL Frameworks": ["TensorFlow", "PyTorch", "Keras", "Scikit-learn", "XGBoost"],
-        "Computer Vision": ["OpenCV", "CNNs", "Image Processing", "Face Detection"],
-        "Data Science": ["Pandas", "NumPy", "SciPy", "Power BI", "Excel"],
-        "Tools & Platforms": ["Jupyter", "GitHub", "VSCode", "AWS", "FastAPI", "Flask"],
-        "Core Skills": ["Problem-Solving", "Research", "Team Collaboration", "Communication"]
+        "Programming Languages": ["Python", "Java", "C", "SQL", "HTML", "CSS", "JavaScript"],
+        "ML & Deep Learning": ["TensorFlow", "PyTorch", "Keras", "CNNs", "RNNs", "GANs", "Transformers"],
+        "Computer Vision": ["OpenCV", "Image Processing", "Object Detection", "Segmentation"],
+        "Data & Analytics": ["Pandas", "NumPy", "SciPy", "Scikit-learn", "Data Visualization"],
+        "Tools & Frameworks": ["Flask", "FastAPI", "Jupyter", "GitHub", "AWS", "Docker"],
+        "Core Competencies": ["Reinforcement Learning", "System Design", "Problem-Solving", "Research", "Communication"]
+    },
+
+    "contact": {
+        "email": "dhruvthejas.kj@gmail.com",
+        "phone": "+91 8309303147",
+        "github": "https://github.com/DhruvThejas",
+        "linkedin": "https://linkedin.com/in/dhruv-thejas"
     }
 }
 
@@ -225,4 +208,4 @@ def get_portfolio():
     return jsonify(PORTFOLIO_DATA)
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0', port=5000)
+    app.run(debug=True)
